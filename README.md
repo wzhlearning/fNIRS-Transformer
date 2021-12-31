@@ -1,6 +1,7 @@
 # fNIRS-Transformer
 ## Transformer Model for Functional Near-Infrared Spectroscopy Classification
-This work has been accepted for publication in the IEEE Journal of Biomedical and Health Informatics (J-BHI). *The code will be released here.* 
+This work has been accepted for publication in the IEEE Journal of Biomedical and Health Informatics (J-BHI). 
+*The code will be released here.* 
 
 
 
