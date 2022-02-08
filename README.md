@@ -20,7 +20,7 @@ Paper: [1], [2]
 
 Dataset:  http://bnci-horizon-2020.eu/database/data-sets 
 
-![](C:\Users\lenovo\Desktop\fNIRS-T\2021-1-24\fig\Dataset A.png)
+![](fig\Dataset A.png)
 
 ### 2.2.  Dataset B
 
