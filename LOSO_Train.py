@@ -172,7 +172,7 @@ if __name__ == "__main__":
                     test_max_acc = test_running_acc
                     torch.save(net.state_dict(), path + '/test_max_acc.pt')
                     test_save = open(path + '/test_max_acc.txt', "w")
-                    test_save.write("sub=%d, EPOCH=%d, best_acc= %.3f" % (sub, epoch, test_running_acc))
+                    test_save.write("sub=%d, best_acc= %.3f" % (sub, test_running_acc))
                     test_save.close()
 
             lrStep.step()
