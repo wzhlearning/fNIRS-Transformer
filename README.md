@@ -8,9 +8,10 @@ This work (doi: 10.1109/JBHI.2022.3140531) has been accepted for publication in 
 
 Functional near-infrared spectroscopy (fNIRS) is a promising neuroimaging technology. The fNIRS classification problem has always been the focus of the brain-computer interface (BCI). Inspired by the success of Transformer based on self-attention mechanism in the fields of natural language processing and computer vision, we propose an fNIRS classification network based on Transformer, named **fNIRS-T**. We explore the spatial-level and channel-level representation of fNIRS signals to improve data utilization and network representation capacity. Besides, a preprocessing module, which consists of one-dimensional average pooling and layer normalization, is designed to replace filtering and baseline correction of data preprocessing. It makes fNIRS-T an end-to-end network, called **fNIRS-PreT**. 
 
-![fig](fig\model.png)
 
-
+<div align='center'>
+<img src = 'fig/model.png'>
+</div>
 
 ## 2. Datasets and Preprocessing
 We conduct experiments on three open-access datasets. For data preprocessing, we follow the original literature and code.
@@ -20,7 +21,10 @@ Paper: [1], [2]
 
 Dataset:  http://bnci-horizon-2020.eu/database/data-sets 
 
-![](fig\Dataset A.png)
+
+<div align='center'>
+<img src = 'fig/Dataset A.png'>
+</div>
 
 ### 2.2.  Dataset B
 
