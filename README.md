@@ -1,6 +1,6 @@
 # fNIRS-Transformer
 ## Transformer Model for Functional Near-Infrared Spectroscopy Classification
-This work (doi: 10.1109/JBHI.2022.3140531) has been accepted for publication in the IEEE Journal of Biomedical and Health Informatics (see https://ieeexplore.ieee.org/document/9670659)
+This work has been accepted for publication in the IEEE Journal of Biomedical and Health Informatics ( https://ieeexplore.ieee.org/document/9670659).
 
 
 
@@ -13,7 +13,9 @@ Functional near-infrared spectroscopy (fNIRS) is a promising neuroimaging techno
 <img src = 'fig/model.png'>
 </div>
 
+
 ## 2. Datasets and Preprocessing
+
 We conduct experiments on three open-access datasets. For data preprocessing, we follow the original literature and code.
 
 ### 2.1.  Dataset A
@@ -74,21 +76,21 @@ Inspired by piecewise decaying learning rates, we decay the flooding level at th
 
  ***scripts***:  The  directory contains conversion code for the three datasets. Although converting to *.xls* format increases read time and dataset storage space, it is convenient to visualize fNIRS signals. For the raw data used by fNIRS-PreT, the filtering and baseline correction codes (in ***B_mat2xls.m*** and ***C_mat2xls.m***) need to be disabled.
 
-***KFold_Train.py***:  K-fold cross-validation to train the models.
+***KFold_Train.py*** :  K-fold cross-validation to train the models.
 
-***KFold_ACC.py***:  Calculate the average K-fold cross-validation accuracy.
+***KFold_ACC.py*** :  Calculate the average K-fold cross-validation accuracy.
 
-***LOSO_Train.py***:  Leave-one-subject-out cross-validation to train the models.
+***LOSO_Train.py*** :  Leave-one-subject-out cross-validation (LOSO-CV) to train the models.
 
-***LOSO_Results.py***:  Evaluate experimental results.
+***LOSO_Results.py*** :  Evaluate experimental results.
 
-***LOSO_Split.py***:  One subject's data is used as the test set, and the rest is used as the training set.
+***LOSO_Split.py*** :  One subject's data is used as the test set, and the rest is used as the training set.
 
-***model.py***:  Code for fNIRS-T and fNIRS-PreT.
+***model.py*** :  Code for fNIRS-T and fNIRS-PreT.
 
-***dataloader.py***:  Load the specified dataset.
+***dataloader.py*** :  Load the specified dataset.
 
-Before training, you need to specify the dataset, model, and dataset path.
+You need to specify the dataset, model, and dataset path before training.
 
 ```
     # Select dataset
@@ -103,6 +105,23 @@ Before training, you need to specify the dataset, model, and dataset path.
 
     # Select the specified path
     data_path = 'data'
+```
+
+
+
+## 5. Citation
+
+If you found the study useful for you, please consider citing it.
+```
+@ARTICLE{Wang2022Transformer,  
+author  = {Wang, Zenghui and Zhang, Jun and Zhang, Xiaochu and Chen, Peng and Wang, Bing},  
+journal = {IEEE Journal of Biomedical and Health Informatics},   
+title   = {Transformer Model for Functional Near-Infrared Spectroscopy Classification},   
+year    = {2022},  
+volume  = {26},  
+number  = {6},  
+pages   = {2559-2569},  
+doi     = {10.1109/JBHI.2022.3140531}}
 ```
 
 

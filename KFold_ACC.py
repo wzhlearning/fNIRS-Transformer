@@ -14,9 +14,8 @@ print(models[models_id])
 test_acc = []
 for tr in range(1, 26):
     path = 'save/' + dataset[dataset_id] + '/KFold/' + models[models_id] + '/' + str(tr)
-    test_max_acc = open(path + '/test_max_acc.txt', "r")
-    string = test_max_acc.read()
-    acc = string.split('best_acc=')[1]
+    acc = open(path + '/test_acc.txt', "r")
+    acc = acc.read()
     acc = float(acc)
     test_acc.append(acc)
 

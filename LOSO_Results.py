@@ -68,7 +68,7 @@ if __name__ == "__main__":
             elif models[models_id] == 'fNIRS-PreT':
                 net = fNIRS_PreT(n_class=3, sampling_point=sampling_points, dim=128, depth=6, heads=8, mlp_dim=64).to(device)
 
-        weight_path = 'save/' + dataset[dataset_id] + '/LOSO/' + models[models_id] + '/' + str(sub) + '/test_max_acc.pt'
+        weight_path = 'save/' + dataset[dataset_id] + '/LOSO/' + models[models_id] + '/' + str(sub) + '/model.pt'
         net.load_state_dict(torch.load(weight_path))
         # -------------------------------------------------------------------------------------------------------------------- #
         net.eval()

@@ -39,7 +39,7 @@ if __name__ == "__main__":
     # Select the specified path
     data_path = 'data'
 
-    # Save file
+    # Save file and avoid training file overwriting.
     save_path = 'save/' + dataset[dataset_id] + '/KFold/' + models[models_id]
     assert os.path.exists(save_path) is False, 'path is exist'
     os.makedirs(save_path)
@@ -112,7 +112,6 @@ if __name__ == "__main__":
         test_max_acc = 0
         for epoch in range(EPOCH):
             net.train()
-            train_running_loss = 0
             train_running_acc = 0
             total = 0
             loss_steps = []
@@ -150,7 +149,6 @@ if __name__ == "__main__":
 
             # -------------------------------------------------------------------------------------------------------------------- #
             net.eval()
-            test_running_loss = 0
             test_running_acc = 0
             total = 0
             loss_steps = []
@@ -174,9 +172,9 @@ if __name__ == "__main__":
 
                 if test_running_acc > test_max_acc:
                     test_max_acc = test_running_acc
-                    torch.save(net.state_dict(), path + '/test_max_acc.pt')
-                    test_save = open(path + '/test_max_acc.txt', "w")
-                    test_save.write("best_acc= %.3f" % (test_running_acc))
+                    torch.save(net.state_dict(), path + '/model.pt')
+                    test_save = open(path + '/test_acc.txt', "w")
+                    test_save.write("%.3f" % (test_running_acc))
                     test_save.close()
 
             lrStep.step()

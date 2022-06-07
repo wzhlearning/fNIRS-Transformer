@@ -43,7 +43,6 @@ def Load_Dataset_A(data_path, model):
 
             # fNIRS-T uses preprocessed data
             if model == 'fNIRS-T':
-                print('preprocessed data')
                 b, a = signal.butter(4, 0.018, 'lowpass')
                 HbO = signal.filtfilt(b, a, HbO, axis=0)
                 HbR = signal.filtfilt(b, a, HbR, axis=0)
