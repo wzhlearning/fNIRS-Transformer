@@ -74,7 +74,7 @@ Inspired by piecewise decaying learning rates, we decay the flooding level at th
 
 ## 4. Code
 
- ***scripts***:  The  directory contains conversion code for the three datasets. Although converting to *.xls* format increases read time and dataset storage space, it is convenient to visualize fNIRS signals. For the raw data used by fNIRS-PreT, the filtering and baseline correction codes (in ***B_mat2xls.m*** and ***C_mat2xls.m***) need to be disabled.
+ ***scripts***:  The  directory contains conversion code for the three datasets. Although converting to *.xls* format increases read time and dataset storage space, it is convenient to visualize fNIRS signals. For fNIRS-PreT, the ***filtering*** and ***baseline correction*** codes (in ***B_mat2xls.m*** and ***C_mat2xls.m***) need to be ***manually*** disabled or annotated.
 
 ***KFold_Train.py*** :  K-fold cross-validation to train the models.
 
