@@ -130,8 +130,8 @@ doi     = {10.1109/JBHI.2022.3140531}}
 
 [1] G. Bauernfeind, R. Scherer, G. Pfurtscheller, and C. Neuper, “Single-trial classifification of antagonistic oxyhemoglobin responses during mental arithmetic,” *Med. Biol. Eng. Comput.*, vol. 49, no. 9, pp. 979–984, 2011.
 
-[2] G. Pfurtscheller, G. Bauernfeind, S. C. Wriessnegger, and C. Neuper,“Focal frontal (de) oxyhemoglobin responses during simple arithmetic,” Int. J. Psychophysiol., vol. 76, no. 3, pp. 186–192, 2010.
+[2] G. Pfurtscheller, G. Bauernfeind, S. C. Wriessnegger, and C. Neuper,“Focal frontal (de) oxyhemoglobin responses during simple arithmetic,” *Int. J. Psychophysiol.*, vol. 76, no. 3, pp. 186–192, 2010.
 
 [3] J. Shin, A. von Luhmann, B. Blankertz, D.-W. Kim, J. Jeong, H.-J. Hwang, and K.-R. Muller, “Open access dataset for EEG+NIRS single-trial classifification,” *IEEE Trans. Neural Syst. Rehabil. Eng.*, vol. 25, no. 10, pp. 1735–1745, 2017.
 
-[4] S. Bak, J. Park, J. Shin, and J. Jeong, “Open-access fNIRS dataset for classifification of unilateral fifinger-and foot-tapping,” *Electronics*, vol. 8, no. 12, p. 1486, 2019.
+[4] S. Bak, J. Park, J. Shin, and J. Jeong, “Open-access fNIRS dataset for classifification of unilateral finger-and foot-tapping,” *Electronics*, vol. 8, no. 12, p. 1486, 2019.
