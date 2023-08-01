@@ -2,7 +2,7 @@
 ## Transformer Model for Functional Near-Infrared Spectroscopy Classification
 This work has been accepted for publication in the IEEE Journal of Biomedical and Health Informatics ( https://ieeexplore.ieee.org/document/9670659).
 
-
+Our other work may also be useful to you：***A General and Scalable Vision Framework for Functional Near-Infrared Spectroscopy Classification***  ( https://ieeexplore.ieee.org/abstract/document/9828508).
 
 ##  1.  Abstract
 
@@ -124,6 +124,18 @@ pages   = {2559-2569},
 doi     = {10.1109/JBHI.2022.3140531}}
 ```
 
+Our other work:
+```
+@ARTICLE{Wang2022VisionfNIRSFramework,
+author  = {Wang, Zenghui and Zhang, Jun and Xia, Yi and Chen, Peng and Wang, Bing},
+journal = {IEEE Transactions on Neural Systems and Rehabilitation Engineering}, 
+title   = {A General and Scalable Vision Framework for Functional Near-Infrared Spectroscopy Classification}, 
+year    = {2022},
+volume  = {30},
+number  = {},
+pages   = {1982-1991},
+doi     = {10.1109/TNSRE.2022.3190431}}
+```
 
 
 ## References
