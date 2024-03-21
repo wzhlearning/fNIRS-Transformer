@@ -90,6 +90,12 @@ Inspired by piecewise decaying learning rates, we decay the flooding level at th
 
 ***dataloader.py*** :  Load the specified dataset.
 
+4.1 Extract datasets A, B, and C using the mat files from the scripts folder. You will need to download the BBCI library from the dataset link. For fNIRS-PreT, the ***filtering*** and ***baseline correction*** codes (in ***B_mat2xls.m*** and ***C_mat2xls.m***) need to be ***manually*** disabled or annotated.
+
+4.2 Run ***KFold_Train.py*** to perform KFold-CV training. Run ***KFold_ACC.py*** to obtain results.
+
+4.3 Run ***LOSO_Train.py*** to execute LOSO-CV training. Run ***LOSO_Results.py*** to obtain results.
+
 You need to specify the dataset, model, and dataset path before training.
 
 ```
