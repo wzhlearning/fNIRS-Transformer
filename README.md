@@ -2,7 +2,11 @@
 ## Transformer Model for Functional Near-Infrared Spectroscopy Classification
 This work has been accepted for publication in the IEEE Journal of Biomedical and Health Informatics ( https://ieeexplore.ieee.org/document/9670659).
 
-Our other work may also be useful to you：***A General and Scalable Vision Framework for Functional Near-Infrared Spectroscopy Classification***  ( https://ieeexplore.ieee.org/abstract/document/9828508).
+Our other work may also be useful to you：
+
+***A General and Scalable Vision Framework for Functional Near-Infrared Spectroscopy Classification*** ( https://ieeexplore.ieee.org/abstract/document/9828508).
+
+***Rethinking Delayed Hemodynamic Responses for fNIRS Classification*** (https://ieeexplore.ieee.org/document/10311392/, GitHub: https://github.com/wzhlearning/fNIRSNet).
 
 ##  1.  Abstract
 
@@ -141,6 +145,18 @@ volume  = {30},
 number  = {},
 pages   = {1982-1991},
 doi     = {10.1109/TNSRE.2022.3190431}}
+```
+
+```
+@ARTICLE{wang2023fNIRSNet,
+author  = {Wang, Zenghui and Fang, Jihong and Zhang, Jun},
+journal = {IEEE Transactions on Neural Systems and Rehabilitation Engineering}, 
+title   = {Rethinking Delayed Hemodynamic Responses for fNIRS Classification}, 
+year    = {2023},
+volume  = {31},
+number  = {},
+pages   = {4528-4538},
+doi     = {10.1109/TNSRE.2023.3330911}}
 ```
 
 
