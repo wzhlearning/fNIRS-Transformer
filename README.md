@@ -4,9 +4,11 @@ This work has been accepted for publication in the IEEE Journal of Biomedical an
 
 Our other work may also be useful to you：
 
-***A General and Scalable Vision Framework for Functional Near-Infrared Spectroscopy Classification*** ( https://ieeexplore.ieee.org/abstract/document/9828508).
+✅ ***A General and Scalable Vision Framework for Functional Near-Infrared Spectroscopy Classification*** ( https://ieeexplore.ieee.org/abstract/document/9828508).
 
-***Rethinking Delayed Hemodynamic Responses for fNIRS Classification*** (https://ieeexplore.ieee.org/document/10311392/, GitHub: https://github.com/wzhlearning/fNIRSNet).
+✅ ***Rethinking Delayed Hemodynamic Responses for fNIRS Classification*** (https://ieeexplore.ieee.org/document/10311392/, GitHub: https://github.com/wzhlearning/fNIRSNet).
+
+✅ ***A Unified fNIRS Classification Framework Informed by Local Brain Activation Patterns*** (https://ieeexplore.ieee.org/document/11279989, https://github.com/wzhlearning/LoBrAFrame). 
 
 ##  1.  Abstract
 
@@ -157,6 +159,19 @@ volume  = {31},
 number  = {},
 pages   = {4528-4538},
 doi     = {10.1109/TNSRE.2023.3330911}}
+```
+
+```
+@ARTICLE{Wang2025LoBrAFrame,
+author  = {Wang, Zenghui and Du, Songlin},
+journal = {IEEE Transactions on Industrial Informatics}, 
+title   = {A Unified fNIRS Classification Framework Informed by Local Brain Activation Patterns}, 
+year    = {2026},
+volume  = {22},
+number  = {3},
+pages   = {1871-1881},
+doi     = {10.1109/TII.2025.3632147}
+}
 ```
 
 
