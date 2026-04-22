@@ -8,7 +8,7 @@ This work has been accepted for publication in the IEEE Journal of Biomedical an
 
 ✅ ***Rethinking Delayed Hemodynamic Responses for fNIRS Classification*** (https://ieeexplore.ieee.org/document/10311392/, GitHub: https://github.com/wzhlearning/fNIRSNet).
 
-✅ ***A Unified fNIRS Classification Framework Informed by Local Brain Activation Patterns*** (https://ieeexplore.ieee.org/document/11279989, https://github.com/wzhlearning/LoBrAFrame). 
+✅ 🆕 🎯 ***A Unified fNIRS Classification Framework Informed by Local Brain Activation Patterns*** (https://ieeexplore.ieee.org/document/11279989, https://github.com/wzhlearning/LoBrAFrame). 
 
 ##  1.  Abstract
 
